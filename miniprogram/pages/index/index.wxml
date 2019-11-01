@@ -54,5 +54,12 @@
     </navigator>
   </view>
 
+  <!-- 云调用 -->
+  <view class="uploader">
+    <navigator url="../map/map" open-type="navigate" class="uploader-text">
+      <text>Map</text>
+    </navigator>
+  </view>
+
 
 </view>
