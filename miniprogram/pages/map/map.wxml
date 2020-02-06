@@ -1,2 +1,2 @@
 <!--miniprogram/pages/map/map.wxml-->
-<map class="container" style="width:750rpx"></map>
+<map class="container" style="width:750rpx;height:100vh"></map>

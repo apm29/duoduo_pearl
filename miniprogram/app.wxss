@@ -154,3 +154,23 @@ page {
   line-height: 36rpx;
   word-break: break-all;
 }
+
+
+
+
+
+.fill-height{
+  height: 100%;
+}
+
+.fill-width{
+  width:100%;
+}
+
+.bg-blue{
+  background-color: blue;
+}
+
+.radius-20{
+  border-radius: 20rpx
+}

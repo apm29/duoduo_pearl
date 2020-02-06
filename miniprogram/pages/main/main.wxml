@@ -1,0 +1,15 @@
+<!--pages/main/main.wxml-->
+
+<mp-dialog title="test" show="{{dialogShow}}" bindbuttontap="tapDialogButton" bindclose="onDialogClose" buttons="{{buttons}}">
+  <view>test content</view>
+</mp-dialog>
+<mp-searchbar></mp-searchbar>
+<view>
+  <swiper indicator-dots="{{true}}" autoplay="{{true}}" circular="{{true}}" style="height:260rpx;margin:20rpx">
+    <block wx:for="{{banner_list}}" wx:key="sku_id">
+      <swiper-item bindtap="navigateTo" data-sku_id="{{item.sku_id}}">
+        <image src="{{item.image_url}}"  class="fill-height fill-width radius-20"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

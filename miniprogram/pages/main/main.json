@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "mp-dialog":"/components/weui-miniprogram/dialog/dialog",
+    "mp-searchbar": "/components/weui-miniprogram/searchbar/searchbar"
+  },
+  "backgroundColor": "#ffffff"
+
+}

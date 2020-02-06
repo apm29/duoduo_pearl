@@ -1,5 +1,8 @@
 {
   "pages": [
+    
+    
+    "pages/main/main",
     "pages/index/index",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
@@ -18,11 +21,31 @@
     "pages/map/map"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
+    "backgroundColor": "#FfFfFf",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarBackgroundColor": "#FfFfFf",
+    "navigationBarTitleText": "多多珍珠",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#FF6347",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "iconPath": "images/a_13.png",
+        "selectedIconPath": "images/a_14.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/a_11.png",
+        "selectedIconPath": "images/a_12.png",
+        "text": "我的"
+      }
+    ]
+  }
 }
